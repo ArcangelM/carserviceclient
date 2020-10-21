@@ -1,8 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~@angular/material/prebuilt-themes/purple-green.css";
 @import 'https://fonts.googleapis.com/icon?family=Material+Icons';
 
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
+  background-image: url("./assets/images/background.jpg") ;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+h2{
+  color: rgb(171, 159, 253);
+}
+.main-div{
+  padding-top: 50px ;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  min-height:500px;
+}
+
+.example-icon {
+  padding: 0 14px;
+  
+  margin: 10px;
+  
+}
+.example-spacer {
+  flex: 1 1 auto;
+  
+}
+
+.mat-list-base.inline-list {
+  
+  flex-grow: 1;
+  border: 2px solid rgb(149, 135, 160);
+  overflow: auto;
+  max-height: 400px;
+  
+}
+.color-boton{
+  background-color: #7b1fa2;
+  width: 246px;
+  font-size: medium;
+}
+.title{
+  font-family:'Trebuchet MS';
+  font-size: x-large;
 }
