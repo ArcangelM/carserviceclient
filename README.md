@@ -1,6 +1,20 @@
 # CarServiceClient
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
+
+# Result
+![result view](src/assets/images/view.png)
+
+# Used Components 
+Was necesary to sued the the next component:
+### 1) Car-edit :
+This component manages the logical part and the view of the editing process of a vehicle, including the owner's ID.
+### 2) Car-list :
+This component manages the logical part and the view of the car listing process with its corresponding name, owner id and photo..
+### 3) Owner-edition :
+This component was used to implement the logic and the view of the editing process of the owners with their corresponding name and id. In addition to facilitating the update and deletion options.
+### 4) Owner-list :
+This component was used to implement the logic and the view of the listing process of the owners with their corresponding name and id. 
 
 ## Development server
 
